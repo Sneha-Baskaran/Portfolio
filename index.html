@@ -3,12 +3,20 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Sneha Portfolio</title>
+<title>Sneha Baskaran | Portfolio</title>
+
 <link rel="stylesheet" href="style.css">
+
+<!-- Google Font -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+<!-- Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 
 <body>
 
+<!-- NAVBAR -->
 <nav>
   <h2>Sneha</h2>
   <ul>
@@ -18,38 +26,58 @@
   </ul>
 </nav>
 
+<!-- HERO -->
 <header>
   <h1 id="typing"></h1>
-  <p>Aspiring Software Developer</p>
+  <p>Software Developer | ML Enthusiast</p>
+  <a href="#projects" class="btn">View Projects</a>
 </header>
 
-<section id="about">
+<!-- ABOUT -->
+<section id="about" class="container">
   <h2>About Me</h2>
-  <p>I build ML and Web applications using Python & JavaScript.</p>
+  <p>
+    I am an Information Technology graduate skilled in Python, Java, and Machine Learning.
+    I build intelligent applications and scalable web solutions.
+  </p>
+
+  <div class="skills">
+    <span><i class="fab fa-python"></i> Python</span>
+    <span><i class="fab fa-java"></i> Java</span>
+    <span><i class="fab fa-html5"></i> HTML</span>
+    <span><i class="fab fa-css3"></i> CSS</span>
+    <span><i class="fab fa-js"></i> JavaScript</span>
+  </div>
 </section>
 
-<section id="projects">
+<!-- PROJECTS -->
+<section id="projects" class="container">
   <h2>Projects</h2>
-  
+
   <div class="card">
     <h3>Face Mask Detection</h3>
-    <p>Real-time ML project using OpenCV</p>
+    <p>Real-time ML model using OpenCV & CNN.</p>
   </div>
 
   <div class="card">
     <h3>Plant Classification</h3>
-    <p>TensorFlow-based web app</p>
+    <p>Deep learning project using TensorFlow & Keras.</p>
   </div>
 
 </section>
 
-<section id="contact">
+<!-- CONTACT -->
+<section id="contact" class="container">
   <h2>Contact</h2>
-  <input type="text" placeholder="Your Name"><br>
-  <input type="email" placeholder="Your Email"><br>
-  <textarea placeholder="Message"></textarea><br>
-  <button>Send</button>
+  <input type="text" placeholder="Your Name">
+  <input type="email" placeholder="Your Email">
+  <textarea placeholder="Message"></textarea>
+  <button>Send Message</button>
 </section>
+
+<footer>
+  <p>© 2026 Sneha Baskaran</p>
+</footer>
 
 <script src="script.js"></script>
 </body>
